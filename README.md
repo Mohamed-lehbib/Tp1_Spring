@@ -5,7 +5,7 @@
 - Then we have created a package called controler 
 - And we have created class called TestController with this content just for test
 ```
-package tech.chilo.sa.controler;
+package tech.chilo.sa.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -92,7 +92,13 @@ server.servlet.context-path=/api
 - Then we have runned the project to check the state of the app
 - Then i have created the entites package that contains all the entities
 - Then we have deleted the TestController
-- And we have created a new controller [ClientController](src/main/java/tech/chilo/sa/controler/ClientController.java)
+- And we have created a new controller [ClientController](src/main/java/tech/chilo/sa/controller/ClientController.java)
+- Then i have created a new package called `service`
+- Then we have created under it a new class [ClientService](src/main/java/tech/chilo/sa/service/ClientService.java)
+- Then i have created a new package called `repository`
+- Then i have created under it a new interface [ClientRepository](src/main/java/tech/chilo/sa/repository/ClientRepository.java)
+- Then i have started the dependency injection i have injected the `ClientRepository` in `ClientService`and then i have injected `ClientService`in `ClientController`
+- 
 
 ## Populare HTTP Response status code
 | Status Code            | Description                                                                                                                                                                                                                                                                                         |
