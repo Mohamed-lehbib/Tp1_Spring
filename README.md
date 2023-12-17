@@ -98,7 +98,6 @@ server.servlet.context-path=/api
 - Then i have created a new package called `repository`
 - Then i have created under it a new interface [ClientRepository](src/main/java/tech/chilo/sa/repository/ClientRepository.java)
 - Then i have started the dependency injection i have injected the `ClientRepository` in `ClientService`and then i have injected `ClientService`in `ClientController`
-- 
 
 ## Populare HTTP Response status code
 | Status Code            | Description                                                                                                                                                                                                                                                                                         |
