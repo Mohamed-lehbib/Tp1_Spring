@@ -91,3 +91,20 @@ server.servlet.context-path=/api
 ```
 - Then we have runned the project to check the state of the app
 - Then i have created the entites package that contains all the entities
+- Then we have deleted the TestController
+- And we have created a new controller [ClientController](src/main/java/tech/chilo/sa/controler/ClientController.java)
+
+## Populare HTTP Response status code
+| Status Code            | Description                                                                                                                                                                                                                                                                                         |
+|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 200 OK                 | Successfull **GET** returning Content                                                                                                                                                                                                                                                               |
+| 201 Created            | Resource was partially created                                                                                                                                                                                                                                                                      |
+| 204 NO-CONTENT         | Empty response for **DELETE** or **PUT**                                                                                                                                                                                                                                                            |
+| 400 Bad Request        | Resource data pre-validation error.<br/>Resource data invalid.<br/>Resource unknown error.<br/>The request data is invalid.<br/>Resource collection paging error.<br/>The paging limit exceeds the allowed number.<br/>Resource collection ordering error.<br/>Resource collection filtering error. |
+| 403 Forbidden          | Access denied.                                                                                                                                                                                                                                                                                      |
+| 404 Not Found          | Resource not found.                                                                                                                                                                                                                                                                                 |
+| 405 Method Not Allowed | Resource does not support method.<br/>Resource method not implemented yet.                                                                                                                                                                                                                          |
+| 500 Internal Error     | Unhandled simple errors.<br/>Resource internal error.                                                                                                                                                                                                                                               |
+
+## Spring Boot REST API Architecture
+![Architecture imge](https://www.google.com/url?sa=i&url=https%3A%2F%2Flevelup.gitconnected.com%2Funderstanding-spring-boot-architecture-6083e2631bc6&psig=AOvVaw0Mthq0ageiDWIAXDMg0YEv&ust=1702858053514000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNDE1e2WlYMDFQAAAAAdAAAAABAD "Spring API Architecture")
