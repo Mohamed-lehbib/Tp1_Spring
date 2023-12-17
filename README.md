@@ -107,4 +107,4 @@ server.servlet.context-path=/api
 | 500 Internal Error     | Unhandled simple errors.<br/>Resource internal error.                                                                                                                                                                                                                                               |
 
 ## Spring Boot REST API Architecture
-![Architecture imge](https://www.google.com/url?sa=i&url=https%3A%2F%2Flevelup.gitconnected.com%2Funderstanding-spring-boot-architecture-6083e2631bc6&psig=AOvVaw0Mthq0ageiDWIAXDMg0YEv&ust=1702858053514000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNDE1e2WlYMDFQAAAAAdAAAAABAD "Spring API Architecture")
+![Architecture imge](readme_images/spring_api_architecture.gif "Spring API Architecture")
