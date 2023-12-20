@@ -6,4 +6,6 @@ import tech.chilo.sa.entites.Client;
 
 @Repository
 public interface ClientRepository extends JpaRepository<Client, Integer> {
+
+    Client findByEmail(String email);
 }

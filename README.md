@@ -107,6 +107,7 @@ mvn clean install
 mvn spring-boot:run
 ```
 - Then we have test the api in postman
+- Then i have added the get client and get client by id
 
 ## Populare HTTP Response status code
 | Status Code            | Description                                                                                                                                                                                                                                                                                         |
