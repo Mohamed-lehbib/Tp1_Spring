@@ -108,6 +108,12 @@ mvn spring-boot:run
 ```
 - Then we have test the api in postman
 - Then i have added the get client and get client by id
+- Then i have created a new class under the entites package called [Sentiment](src/main/java/tech/chilo/sa/entites/Sentiment.java)
+- And i have created a package called `enums` and created an enum [TypeSentiment](src/main/java/tech/chilo/sa/enums/TypeSentiment.java) 
+- Then i have created the controller [SentimentController](src/main/java/tech/chilo/sa/controller/SentimentController.java)
+- Then i have created the Service [SentimentService](src/main/java/tech/chilo/sa/service/SentimentService.java)
+- Then i have created the repository [SentimentRepository](src/main/java/tech/chilo/sa/repository/SentimentRepository.java)
+- Then i have created the POST sentiment `creer` and GET sentiment `rechercher`
 
 ## Populare HTTP Response status code
 | Status Code            | Description                                                                                                                                                                                                                                                                                         |
