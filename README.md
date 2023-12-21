@@ -114,6 +114,7 @@ mvn spring-boot:run
 - Then i have created the Service [SentimentService](src/main/java/tech/chilo/sa/service/SentimentService.java)
 - Then i have created the repository [SentimentRepository](src/main/java/tech/chilo/sa/repository/SentimentRepository.java)
 - Then i have created the POST sentiment `creer` and GET sentiment `rechercher`
+- Then i have added DELETE sentiment `supprimer` and PUT sentiment `modifier`
 
 ## Populare HTTP Response status code
 | Status Code            | Description                                                                                                                                                                                                                                                                                         |
