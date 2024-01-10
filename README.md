@@ -130,4 +130,3 @@ mvn spring-boot:run
 
 ## Spring Boot REST API Architecture
 ![Architecture imge](readme_images/spring_api_architecture.gif "Spring API Architecture")
-Hello jenkins
